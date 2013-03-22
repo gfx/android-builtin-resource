@@ -8,8 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.GridView;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 			}
 		}
 
-		final ListView listView = (ListView)findViewById(R.id.main_list);
+		final GridView listView = (GridView)findViewById(R.id.main_list);
 		listView.setAdapter(constants);
 	}
 

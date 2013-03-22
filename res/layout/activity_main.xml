@@ -4,9 +4,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <ListView
+    <GridView
         android:id="@+id/main_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:numColumns="2" />
 
 </LinearLayout>
